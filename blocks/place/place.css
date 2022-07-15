@@ -1,0 +1,25 @@
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(340px, 1fr));
+  grid-template-rows: auto;
+  margin-bottom: 80px;
+  column-gap: 4%;
+}
+
+.place:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    margin-bottom: 73px;
+    grid-template-columns: minmax(100px, 340px) minmax(100px, 352px);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .place {
+    display: block;
+    margin-bottom: 50px;
+  }
+}
