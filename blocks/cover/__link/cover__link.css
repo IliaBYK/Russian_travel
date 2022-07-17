@@ -1,0 +1,42 @@
+.cover__link {
+  background: url(../../../images/__background.jpg) no-repeat;
+  background-size: cover;
+  text-decoration: none;
+  display: flex;
+  position: relative;
+  width: 100%;
+  min-height: 740px;
+}
+
+.cover__link::before {
+  content: '';
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: o;
+  left: 0;
+  background: rgba(42, 44, 47, .3);
+  transition: all .7s ease;
+}
+
+.cover__link:hover::before {
+  background: rgba(42, 44, 47, .8);
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .cover__link {
+    min-height: 640px;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 1023px) {
+  .cover__link {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cover__link {
+    min-height: 200px;
+  }
+}

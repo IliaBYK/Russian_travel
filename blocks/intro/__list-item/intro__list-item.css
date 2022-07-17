@@ -1,0 +1,6 @@
+.intro__list-item {
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: bold; /*я читал в slack об этом, но не спросил какой именно должна быть жирность, у меня все таки написано 400 в макете*/
+}

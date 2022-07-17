@@ -1,0 +1,25 @@
+.place__paragraph {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #fff;
+  max-width: 484px;
+  margin: 0;
+}
+/*все таки пришлось использовать два псевдокласса, 
+так как в последнем place всего один элемент _paragraph,
+и если задать по умолчанию ему нижний отступ, 
+то я не смогу обнулить его с помощью псевдокласса :last-child*/
+.place__paragraph:first-child {
+  margin-bottom: 26px;
+}
+
+.place__paragraph:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
