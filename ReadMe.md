@@ -1,6 +1,6 @@
 # **Russian-travel**
 
-[Ссылка на проект в GitHub](http://example.com/)
+[Ссылка на проект в GitHub](https://iliabyk.github.io/Russian_travel/)
 
 _Проект посвещен путешествиям Веры Башмаковой._ 
  
