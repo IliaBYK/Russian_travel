@@ -3,6 +3,12 @@
   margin: 0 auto 93px;
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1070px) {
+  .intro {
+    margin: 0 48px 95px;
+  }
+}
+
 @media screen and (min-width:768px) and (max-width: 1023px) {
   .intro {
     margin: 0 24px 88px;
@@ -14,3 +20,4 @@
     margin: 0 16px 64px;
   }
 }
+
